@@ -1,4 +1,4 @@
-FROM buildpack-deps:trusty
+FROM ubuntu-debootstrap:trusty
 
 ADD . /bd_build
 
