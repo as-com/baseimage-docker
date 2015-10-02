@@ -1,5 +1,4 @@
-FROM ubuntu:14.04
-MAINTAINER Phusion <info@phusion.nl>
+FROM buildpack-deps:trusty
 
 ADD . /bd_build
 
